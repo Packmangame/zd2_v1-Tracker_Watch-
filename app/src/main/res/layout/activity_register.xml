@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="@color/green">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/app_name"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Login"
+        android:textColorHint="@color/gray"
+        android:onClick="Main"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:textSize="11dp"
+        android:textColorHint="@color/gray"
+        android:layout_marginTop="5dp"
+        android:hint="@string/Pass"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:background="@drawable/buttons"
+        android:text="@string/Log"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="15dp"
+        android:onClick="Main"/>
+
+</LinearLayout>
